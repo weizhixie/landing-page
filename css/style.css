@@ -50,5 +50,38 @@ header .nav .nav__link,
     margin-right: 20px;
 }
 
+.info-section {
+    padding: 30px 10% 60px;
+}
+
+.info-section__title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.info-section__gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.info-section_photo {
+    max-width: 180px;
+}
+
+.info-section__image {
+    width: 180px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.info-section__paragraph {
+    text-align: center;
+}
+
 
 
