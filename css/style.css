@@ -8,12 +8,13 @@ a {
     text-decoration: none;
 }
 
-header {
+header,
+.hero-section {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10%;
+    padding: 10px 10% 60px;
 }
 
 .header-logo {
@@ -24,10 +25,29 @@ header {
     gap: 5px;
 }
 
-header .nav .nav__link{
+header .nav .nav__link,
+.hero-section__paragraph{
     font-size: 18px;
     color: #e5e7eb;
     margin: 10px;
+}
+
+.hero-section__title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.hero-section__button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px 30px;
+    border-style: solid ;
+    border-radius: 8px;
+}
+
+.hero-section__left {
+    margin-right: 20px;
 }
 
 
