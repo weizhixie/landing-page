@@ -42,7 +42,8 @@ header .nav .nav__link,
     color: #f9faf8;
 }
 
-.hero-section__button {
+.hero-section__button,
+.call-to-action-section__button {
     background-color: #3882f6;
     color: #f9faf8;
     padding: 10px 30px;
@@ -104,6 +105,27 @@ header .nav .nav__link,
     text-align: end;
     font-weight: bold;
     font-size: 24px;
+}
+
+.call-to-action-section {
+    padding: 60px 10% 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-section__card {
+    background-color: #3882f6;
+    width: 100vh;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 12px;
+    color: #e5e7eb;
+}
+
+.call-to-action-section__button {
+    border-color: #e5e7eb;
 }
 
 
